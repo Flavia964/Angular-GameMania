@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'awosone', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(17, 14, 14, 0.938);
+    border: none;
+  }
+
+.bg-primary-color {
+    background-color: rgb(80, 130, 240);
+    color:white;
+}
+
+.bg-secondary-color {
+    background-color:rgba(135, 172, 252, 0.801);
+}
+
+.bg-dark-color {
+    background-color: rgb(80, 130, 240);
+
+}
+
+.primary-color {
+    color: white;
+}
+
+.secondary-color {
+    color: white;
+}
+
+.bi-list {
+ color:white;
+}

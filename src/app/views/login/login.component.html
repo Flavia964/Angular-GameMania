@@ -1,0 +1,28 @@
+<div id="login">
+    <div id="login-container">
+      <h1>Login</h1>
+      <form action="" id="form-login" (ngSubmit)="receberDados"><label for="email">E-mail</label>
+        <input id="input-login" type="email" name="email" id="email" placeholder="Digite seu e-mail" name="email"[(ngModel)]="userModel.email" autocomplete=""
+          required>
+        <label for="password">Senha</label>
+        <input id="input-senha" type="password" name="password" id="password" onkeyup="mostrarForca()"
+          placeholder="Digite a sua senha" [(ngModel)]="userModel.password" required>
+        <div id="erroSenhaForca"></div>
+        <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+        <input id="input-login" type="submit" value="login" >
+      </form>
+      <p>
+        {{userModel.email}} <br>
+        {{userModel.password}}
+      </p>
+      <div id="social-container">
+        <p>Ou entre pelas suas redes sociais</p>
+        <i class="bi-facebook"></i>
+        <i class="bi-linkedin"></i>
+        <div id="register-container">
+          <p>Ainda não tem uma conta</p>
+          <a href="#">Registrar</a>
+        </div>
+      </div>
+      </div>
+    </div>

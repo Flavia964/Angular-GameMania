@@ -1,0 +1,154 @@
+#Destaques {
+    background-image: url(/assets/images/image\ 28.png);
+}
+
+#Product {
+   filter: drop-shadow(8px 8px 4px #1cd4ec);
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 20px;
+    border-bottom: #085588;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-top:rgb(8, 8, 8);
+}
+.card-body{
+   /*background-image: url(../img/image\ 28.png);*/
+   background-color: rgb(80, 130, 240);
+}
+
+.card-title {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-variant:normal;
+    font-weight:600;
+}
+
+#featured-imagens {
+    background-color: rgb(3, 34, 100);
+}
+
+#produtos {
+    background-color: rgb(3, 34, 100);
+}
+
+#divBusca{
+    background-color: rgba(188, 207, 248, 0.979);
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+/*Tira a caixinha da barra de pesquisa*/
+   textarea:focus, input:focus {
+    outline: none;
+  }
+
+  span {
+    color: white;
+    
+  }
+
+  p {
+    color: white;
+  }
+
+  /*Página de Login- GERAL*/
+
+  #login {
+    background-image: url('/assets/images/background\ login.png');
+    background-size: cover;
+     /*background-position-y: -200px;*/
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: rgb(3, 116, 197);
+}
+
+  /*Container login*/
+  #login-container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+  }
+    /*Formulário*/
+#form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+#input-senha {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#input-login {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #085588;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:30px;
+    color: #fff;
+    background-color: #201e5f;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #18223c;
+    transition: .5s;
+}
+#senha-media {
+    color: red;
+}
+

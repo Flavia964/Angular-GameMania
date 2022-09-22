@@ -1,0 +1,19 @@
+/* redes sociais */
+#social-container,#social-container p {
+    margin-bottom: 20px;
+    color: black;
+    }
+    
+    #social-container i {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        color: rgba(0, 0, 255, 0.808);
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    
+    p {
+        color: black;
+    }

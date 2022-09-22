@@ -1,0 +1,247 @@
+
+<header>
+    <!--MENU-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg fixed top bg-primary-color" id="navbar">
+        <a href="#" class="navbar-brand">
+          <img src="/assets/images/controller.svg" width="80px" height="80px" alt="Game Mania" />
+          <span>Game Mania</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+          aria-controls="navbar-items" aria-expanded="false" aria-label="toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-items">
+          <ul class="navbar-nav me-auto m2-auto mb-lg-0l">
+            <li class="nav-item">
+              <a class="nav-link primary-color" routerLink="">Home<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-color" routerLink="sobre.html">Sobre<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-color" routerLink="contato.html">Contato<span class="sr-only"></span></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link primary-color" routerLink="/login">Login<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-color" routerLink="cadastro.html">Cadastro<span class="sr-only"></span></a>
+            </li>
+          </ul>
+          <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar..." />
+            <img class="imagem" style="width: 35px; " src="/assets/images/busca1.png" id="btnBusca" alt="Buscar" />
+          </div>
+        </div>
+      </nav>
+      <!--BANNER-->
+      <div id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div id="indicadores" class="carousel-indicators">
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
+        </div>
+        <div id="imagens" class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/images/img1.png" class="d-block w-100" height="600px" />
+
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/banner2.png" class="d-block w-100" height="800px" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/img3.png" class="d-block w-100" height="800px" />
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/Banner3.png" height="600px" />
+            <img src="/assets/images/Banner4.png" height="600px" />
+          </div>
+          <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!--DESTAQUES-->
+      <div class="col-12 col-md-12" id="Destaques">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title primary-color">30%Off</h5>
+                <img src="/assets/images/Lançamento1.png" width="100%" alt="destaque">
+                <a href="Comprar" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title primary-color">20%Off</h5>
+                <img src="/assets/images/Lançamento2.png" width="100%" alt="destaque">
+                <a href="Comprar" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title primary-color">10%Off</h5>
+                <img src="/assets/images/Lançamento3.png" width="100%" height="380px" alt="destaque">
+                <a href="Comprar" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title primary-color">20%Off</h5>
+                <img src="/assets/images/Lançamento4.png" width="100%" alt="destaque">
+                <a href="Comprar" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--DESTAQUES-->
+      <div class="container" id="produtos">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="title primary-color" id="Product">DESTAQUES DA SEMANA</h2>
+          <p class="subtitle secondary-color">
+            Conheça nossos produtos
+          </p>
+        </div>
+        <div class="col-12" id="featured-imagens">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto1.png" width="300px" height="200px" alt="produto1" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 4.499,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  consectetur adipisicing elit. <br>
+                  adipisicing elit
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto2 (2).png" width="300px" height="200px" alt="produto2" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 5.599,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  consectetur elit. <br>
+                  adipisicing elit
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto3.png" height="50px" alt="produto3" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 499,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto4.png" alt="produto4" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 4.499,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  consectetur adipisicing elit. <br>
+                  adipisicing elit
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto5.png" alt="produto5" class="img-fluid" />
+              <div class="banner-content primary-color">
+                <p class="primary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 5.000,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto6.png" alt="produto6" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 5.000,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto8.png" alt="produto6" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 5.000,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <img src="/assets/images/Produto7.png" alt="produto6" class="img-fluid" />
+              <div class="banner-content">
+                <p class="secondary-color">Categoria</p>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <i class="bi bi-star primary-color"></i>
+                <h4 class="primary-color">R$ 5.000,00</h4>
+                <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+     
