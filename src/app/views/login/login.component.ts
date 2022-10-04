@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
   receberDados(){
     console.log(this.userModel);
 
-    this.UserService.logsrUsuario(this.userModel).subscribe({
+    this.UserService.logarUsuario(this.userModel).subscribe({
       next: (response) => {// Sucesso
 
         console.log("Deu certo!");

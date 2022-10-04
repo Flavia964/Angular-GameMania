@@ -15,12 +15,11 @@ export class UserService {
   ) { }
 
 
-  urlLogin = "http://http://localhost:4200/login";
+  urlLogin = "http://localhost:52791/login";
   // Post de login - insomnia
-  logsrUsuario(usuario: User): Observable<any> {
+  logarUsuario(usuario: User): Observable<any> {
 
-    
-
+  
     return this.httpClient.post( this.urlLogin, JSON.stringify(usuario), {
       headers: new HttpHeaders ({"Content-Type": "application/json"}),
       observe: 'response'
